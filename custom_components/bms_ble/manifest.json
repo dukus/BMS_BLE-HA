@@ -48,6 +48,11 @@
       "service_uuid": "0000ff00-0000-1000-8000-00805f9b34fb"
     },
     {
+      "local_name": "LT40AH",
+      "service_uuid": "0000ff00-0000-1000-8000-00805f9b34fb"
+    },
+    {
+      "manufacturer_id": 8856,
       "local_name": "121?0*",
       "service_uuid": "0000ff00-0000-1000-8000-00805f9b34fb"
     },
@@ -62,15 +67,23 @@
     {
       "local_name": "PKT*",
       "service_uuid": "0000ff00-0000-1000-8000-00805f9b34fb"
-    },    
+    },
     {
-      "manufacturer_id": 123,
+      "manufacturer_id": 15984,
       "service_uuid": "0000ff00-0000-1000-8000-00805f9b34fb"
     },
     {
       "manufacturer_id": 49572,
       "service_uuid": "0000ff00-0000-1000-8000-00805f9b34fb"
-    },    
+    },
+    {
+      "local_name": "gokwh*",
+      "service_uuid": "0000ff00-0000-1000-8000-00805f9b34fb"
+    },
+    {
+      "manufacturer_id": 123,
+      "service_uuid": "0000ff00-0000-1000-8000-00805f9b34fb"
+    },
     {
       "manufacturer_id": 6226,
       "service_uuid": "0000ff00-0000-1000-8000-00805f9b34fb"
@@ -86,7 +99,7 @@
     {
       "local_name": "ECO-WORTHY*",
       "manufacturer_id": 47912
-    },    
+    },
     {
       "local_name": "DP04S*",
       "service_uuid": "0000ff00-0000-1000-8000-00805f9b34fb"
@@ -129,6 +142,16 @@
       "manufacturer_id": 0
     },
     {
+      "service_uuid": "0000fff0-0000-1000-8000-00805f9b34fb",
+      "manufacturer_id": 16963
+    },
+    {
+      "local_name": "R-12*",
+      "service_uuid": "0000ffe0-0000-1000-8000-00805f9b34fb",
+      "manufacturer_id": 22618
+    },
+    {
+      "local_name": "R-24*",
       "service_uuid": "0000ffe0-0000-1000-8000-00805f9b34fb",
       "manufacturer_id": 22618
     },
@@ -148,18 +171,14 @@
     },
     {
       "local_name": "V-12V???Ah-*"
-    },    
-    {
-      "local_name": "$PFLAC*",
-      "service_uuid": "0000ffe0-0000-1000-8000-00805f9b34fb"
     },
     {
-      "local_name": "NWJ20*",
-      "service_uuid": "0000ffe0-0000-1000-8000-00805f9b34fb"
+      "service_uuid": "0000ffe0-0000-1000-8000-00805f9b34fb",
+      "manufacturer_id": 0
     },
     {
-      "local_name": "ZM20*",
-      "service_uuid": "0000ffe0-0000-1000-8000-00805f9b34fb"
+      "service_uuid": "0000ffe0-0000-1000-8000-00805f9b34fb",
+      "manufacturer_id": 65535
     },
     {
       "manufacturer_id": 54976
@@ -215,5 +234,5 @@
   ],
   "quality_scale": "silver",
   "requirements": [],
-  "version": "1.15.0"
+  "version": "1.16.0"
 }
